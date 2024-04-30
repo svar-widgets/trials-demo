@@ -1,0 +1,3 @@
+{
+  "postStartCommand": "yarn start"
+}

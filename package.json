@@ -1,0 +1,25 @@
+{
+  "name": "trials-demo",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "build": "vite build",
+    "start": "vite --open"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "3.0.2",
+    "svelte": "npm:@wx/svelte@4.2.12",
+    "svelte-spa-router": "4.0.1",
+    "vite": "5.1.1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@wx/svelte-core": "^1.1.3",
+    "@wx/trial-svelte-filemanager": "^1.0.1",
+    "@wx/trial-svelte-gantt": "^1.0.1",
+    "@wx/trial-svelte-grid": "^1.1.2"
+  }
+}
