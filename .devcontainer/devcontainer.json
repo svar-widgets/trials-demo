@@ -1,3 +1,9 @@
 {
-  "postStartCommand": "yarn start"
+  "updateContentCommand": "yarn",
+  "postAttachCommand": "yarn start",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["src/Filemanager.svelte"]
+    }
+  }
 }
